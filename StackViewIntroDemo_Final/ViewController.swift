@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  StackViewIntroDemo
+//  StackViewIntroDemo_Final
 //
 //  Created by Luis Rollon Gordo on 20/10/16.
 //  Copyright © 2016 EfectoApple. All rights reserved.

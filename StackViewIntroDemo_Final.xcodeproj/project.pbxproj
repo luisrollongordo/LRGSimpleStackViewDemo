@@ -9,19 +9,19 @@
 /* Begin PBXBuildFile section */
 		136386011DB9213A00006613 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136386001DB9213A00006613 /* AppDelegate.swift */; };
 		136386031DB9213A00006613 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136386021DB9213A00006613 /* ViewController.swift */; };
-		136386061DB9213A00006613 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 136386041DB9213A00006613 /* Main.storyboard */; };
 		136386081DB9213A00006613 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 136386071DB9213A00006613 /* Assets.xcassets */; };
 		1363860B1DB9213A00006613 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 136386091DB9213A00006613 /* LaunchScreen.storyboard */; };
+		136386131DB9216F00006613 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 136386121DB9216F00006613 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		136385FD1DB9213A00006613 /* StackViewIntroDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackViewIntroDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		136385FD1DB9213A00006613 /* StackViewIntroDemo_Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackViewIntroDemo_Final.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		136386001DB9213A00006613 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		136386021DB9213A00006613 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		136386051DB9213A00006613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		136386071DB9213A00006613 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1363860A1DB9213A00006613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1363860C1DB9213A00006613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		136386121DB9216F00006613 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +38,7 @@
 		136385F41DB9213A00006613 = {
 			isa = PBXGroup;
 			children = (
-				136385FF1DB9213A00006613 /* StackViewIntroDemo */,
+				136385FF1DB9213A00006613 /* StackViewIntroDemo_Final */,
 				136385FE1DB9213A00006613 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +46,30 @@
 		136385FE1DB9213A00006613 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				136385FD1DB9213A00006613 /* StackViewIntroDemo.app */,
+				136385FD1DB9213A00006613 /* StackViewIntroDemo_Final.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		136385FF1DB9213A00006613 /* StackViewIntroDemo */ = {
+		136385FF1DB9213A00006613 /* StackViewIntroDemo_Final */ = {
 			isa = PBXGroup;
 			children = (
 				136386001DB9213A00006613 /* AppDelegate.swift */,
 				136386021DB9213A00006613 /* ViewController.swift */,
-				136386041DB9213A00006613 /* Main.storyboard */,
+				136386121DB9216F00006613 /* Main.storyboard */,
 				136386071DB9213A00006613 /* Assets.xcassets */,
 				136386091DB9213A00006613 /* LaunchScreen.storyboard */,
 				1363860C1DB9213A00006613 /* Info.plist */,
 			);
-			path = StackViewIntroDemo;
+			path = StackViewIntroDemo_Final;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		136385FC1DB9213A00006613 /* StackViewIntroDemo */ = {
+		136385FC1DB9213A00006613 /* StackViewIntroDemo_Final */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1363860F1DB9213A00006613 /* Build configuration list for PBXNativeTarget "StackViewIntroDemo" */;
+			buildConfigurationList = 1363860F1DB9213A00006613 /* Build configuration list for PBXNativeTarget "StackViewIntroDemo_Final" */;
 			buildPhases = (
 				136385F91DB9213A00006613 /* Sources */,
 				136385FA1DB9213A00006613 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = StackViewIntroDemo;
+			name = StackViewIntroDemo_Final;
 			productName = StackViewIntroDemo;
-			productReference = 136385FD1DB9213A00006613 /* StackViewIntroDemo.app */;
+			productReference = 136385FD1DB9213A00006613 /* StackViewIntroDemo_Final.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,10 +96,11 @@
 				TargetAttributes = {
 					136385FC1DB9213A00006613 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
 					};
 				};
 			};
-			buildConfigurationList = 136385F81DB9213A00006613 /* Build configuration list for PBXProject "StackViewIntroDemo" */;
+			buildConfigurationList = 136385F81DB9213A00006613 /* Build configuration list for PBXProject "StackViewIntroDemo_Final" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				136385FC1DB9213A00006613 /* StackViewIntroDemo */,
+				136385FC1DB9213A00006613 /* StackViewIntroDemo_Final */,
 			);
 		};
 /* End PBXProject section */
@@ -124,7 +125,7 @@
 			files = (
 				1363860B1DB9213A00006613 /* LaunchScreen.storyboard in Resources */,
 				136386081DB9213A00006613 /* Assets.xcassets in Resources */,
-				136386061DB9213A00006613 /* Main.storyboard in Resources */,
+				136386131DB9216F00006613 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,14 +144,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		136386041DB9213A00006613 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				136386051DB9213A00006613 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		136386091DB9213A00006613 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -249,10 +242,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = StackViewIntroDemo/Info.plist;
+				INFOPLIST_FILE = StackViewIntroDemo_Final/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.efectoapple.StackViewIntroDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = StackViewIntroDemo_Final;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -260,17 +254,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = StackViewIntroDemo/Info.plist;
+				INFOPLIST_FILE = StackViewIntroDemo_Final/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.efectoapple.StackViewIntroDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = StackViewIntroDemo_Final;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		136385F81DB9213A00006613 /* Build configuration list for PBXProject "StackViewIntroDemo" */ = {
+		136385F81DB9213A00006613 /* Build configuration list for PBXProject "StackViewIntroDemo_Final" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1363860D1DB9213A00006613 /* Debug */,
@@ -279,13 +274,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1363860F1DB9213A00006613 /* Build configuration list for PBXNativeTarget "StackViewIntroDemo" */ = {
+		1363860F1DB9213A00006613 /* Build configuration list for PBXNativeTarget "StackViewIntroDemo_Final" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				136386101DB9213A00006613 /* Debug */,
 				136386111DB9213A00006613 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
